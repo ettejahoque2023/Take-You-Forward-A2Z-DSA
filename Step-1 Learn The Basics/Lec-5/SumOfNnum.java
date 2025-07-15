@@ -2,7 +2,7 @@ public class SumOfNnum {
     public static void func(int sum,int i){
         if(i<1){
             System.out.println(sum);
-            return;
+            return;  
         }
         func(sum+i,i-1);
     }
